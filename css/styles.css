@@ -11,3 +11,47 @@ h3{
   text-align: center;
 }
 
+#rotate{
+  
+	transform: rotate(30deg);
+	background-color: green; 
+}
+
+#skew {
+	transform: skew(20deg,10deg);
+	background-color: blue 
+}
+#all{
+	transform: rotate(30deg);
+
+	transform: skew(30deg,20deg);
+
+}
+
+#animate{
+	background-color: black
+
+}
+
+#animate:hover{
+	width: 100px;
+	height: 100px;
+	animation-name: dad;
+	animation-duration: 1s;
+	border: 2px solid #000;
+	
+	display: block;
+	margin: 10px;
+}
+
+@keyframes dad{
+	from{background-color: black; }
+	to{background-color: red; }
+}
+
+
+
+
+
+
+
